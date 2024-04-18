@@ -19,6 +19,7 @@ public class ChatService {
 	WebClient textAuthClient;
 	long lastTokenRefreshTime;
 
+	// 주석 추가 테스트
 	@Autowired
 	Pooh pooh;
 	@Autowired
