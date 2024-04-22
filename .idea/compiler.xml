@@ -17,4 +17,9 @@
       <module name="projectFinal.test" target="17" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.example.DoRun-DoRun.main" options="--add-modules java.desktop" />
+    </option>
+  </component>
 </project>
