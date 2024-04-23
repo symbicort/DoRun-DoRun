@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Layout from './Layout';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
@@ -21,6 +21,7 @@ import './App.css';
 
 function App() {
   return (
+    <BrowserRouter>
     <Routes>
       <Route element={<Layout />}>
         <Route path='/' element={<Home />} />
@@ -42,6 +43,7 @@ function App() {
       <Route path='/mypagepw' element={<AuthPw />} />
       <Route path='/spinner' element={<Spinner loadingText='잠시만 기다려주세요...'/>} />
     </Routes>
+    </BrowserRouter>
   );
 }
 
