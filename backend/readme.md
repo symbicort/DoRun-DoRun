@@ -1,1 +1,1 @@
-this project is gonna bring us to chiup
+this project is gonna bring us to chiups
