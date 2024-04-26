@@ -1,7 +1,4 @@
-<div>
-    <img src="https://github.com/ghtjd1358/DoRun-DoRun/assets/129839683/4a94a2ee-1d3f-4702-b079-552bee1c7c99" />
-    <h1>DoRun-DoRun!</h1>
-    <br/>
+<img width="1709" alt="스크린샷 2024-04-24 오전 11 40 17" src="https://github.com/symbicort/DoRun-DoRun/assets/89966755/298ae352-165d-41e2-a630-285e69571ac4">
 <h2>📊목차</h2>
 <table>
     <thead>
