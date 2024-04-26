@@ -1,8 +1,7 @@
-<div align="center">
+<div>
     <img src="https://github.com/ghtjd1358/DoRun-DoRun/assets/129839683/4a94a2ee-1d3f-4702-b079-552bee1c7c99" />
     <h1>DoRun-DoRun!</h1>
     <br/>
-</div>
 <h2>📊목차</h2>
 <table>
     <thead>
@@ -55,7 +54,7 @@
   </tr>
   <tr>
     <td>진행기간</td>
-    <td>2024.02.29 ~ 2024.04.02 (34일)</td>
+    <td>2024.02.29 ~ 2024.04.02</td>
   </tr>
   <tr>
     <td>팀명 / 팀원</td>
@@ -364,10 +363,11 @@ server
         <td>이정원</td>
         <td>Back-end</td>
         <td>
-            -서버 구축<br>
+            -서버 구축 및 배포<br>
+            -SSL 인증서 발급 및 https 연결 설정
             -보안<br>
-            -TTS<br>
-            -User 관리<br>
+            -TTS API 기능 구현<br>
+            -User 기능 API 기능 구현<br>
         </td>
     </tr>
      <tr>
