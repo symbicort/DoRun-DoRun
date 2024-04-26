@@ -63,11 +63,11 @@
   </tr>
   <tr>
     <td>github 주소</td>
-    <td><a href="https://github.com/ghtjd1358/DoRun-DoRun">https://github.com/ghtjd1358/DoRun-DoRun</a></td>
+    <td><a href="https://github.com/symbicort/DoRun-DoRun">https://github.com/symbicort/DoRun-DoRun</a></td>
   </tr>
   <tr>
     <td>배포 주소</td>
-    <td><a href="https://43.201.109.188.sslip.io/">https://43.201.109.188.sslip.io/</td>
+    <td><a href="https://43.203.227.36.sslip.io/">https://43.203.227.36.sslip.io/</td>
   </tr>
 </table><br>
 
