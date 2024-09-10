@@ -216,7 +216,7 @@ public class UserMissionService {
                         + "  \"topP\": 0.95,\n"
                         + "  \"topK\": 1\n"
                         + "}";
-        String project = "shaped-radius-425312-c5"; // Google Cloud Console 에서 본인 프로젝트 이름 확인
+        String project = "stately-fabric-435204-t1"; // Google Cloud Console 에서 본인 프로젝트 이름 확인
         String location = "asia-northeast3";
         String publisher = "google";
         String model = "text-bison@002"; // 사용할 AI 모델
