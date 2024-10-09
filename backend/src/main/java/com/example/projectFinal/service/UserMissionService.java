@@ -128,7 +128,7 @@ public class UserMissionService {
 
         // missionId 찾기
         MissionEntity mission = missionRepository.findByMissionId(missionId);
-        System.out.println("mission ID 확인" + mission);
+        System.out.println("mission ID 확인 sout" + mission);
 
         // 해당 미션 데이터 찾기
         UserMissionEntity userMission =
