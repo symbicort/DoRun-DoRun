@@ -128,6 +128,7 @@ public class UserMissionService {
 
         // missionId 찾기
         MissionEntity mission = missionRepository.findByMissionId(missionId);
+        System.out.println("mission ID 확인" + mission);
 
         // 해당 미션 데이터 찾기
         UserMissionEntity userMission =
@@ -141,7 +142,6 @@ public class UserMissionService {
         userMissionRepository.save(userMission);
 
     }
-
 
 
     // 채팅창 : 프론트로 문장 전송
@@ -206,7 +206,7 @@ public class UserMissionService {
     public String textPrompt(String data) throws IOException {
         String prompt = makePrompt(data);
         String instance =
-                "{ \"prompt\": " + "\"Check which expression from the missions the chat corresponds to and return the corresponding missionId(s) as an Array. (e.g. ['lv1_1', 'lv_2']) "+
+                "{ \"prompt\": " + "\"Check which expression from the missions the chat corresponds to and return the corresponding missionId(s) as an Array. (e.g. ['lv1_1', 'lv_2']) " +
                         "If no matching missions are found or if the chat sentence does not match the expression from any of the missions, return none in lower case." +
                         prompt + "\"}";
         String parameters =
@@ -253,7 +253,7 @@ public class UserMissionService {
             return null;
         }
 
-    // JSON 데이터를 이런 형식의 문자열로 만들기 위한 작업
+        // JSON 데이터를 이런 형식의 문자열로 만들기 위한 작업
 //        missionId: lv1_1
 //        mission: I am trying to
 //
@@ -265,6 +265,7 @@ public class UserMissionService {
 //
 //        chat: I'm trying to
     }
+
     public String predictTextPrompt(
             String instance,
             String parameters,

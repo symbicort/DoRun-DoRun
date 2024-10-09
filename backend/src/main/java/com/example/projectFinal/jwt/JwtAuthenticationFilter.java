@@ -32,7 +32,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
             System.out.println(token);
 
-            if( token != null && !token.equalsIgnoreCase("null")) {
+            if (token != null && !token.equalsIgnoreCase("null")) {
                 //토근이 null이 아니고 "null"문자열이 아닌경우
                 ///equalsIgnoreCase: 대소문자 구분 없이 비교
 
@@ -41,7 +41,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
                 //인증 완료시 SecurityContextHolder에 등록하여 사용자 인식
                 //1. 사용자 정보를 담을 토큰 생성
-                AbstractAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userId, null , AuthorityUtils.NO_AUTHORITIES);
+                AbstractAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userId, null, AuthorityUtils.NO_AUTHORITIES);
 
                 //2. 사용자 인증 세부 설정.
                 authentication.setDetails((new WebAuthenticationDetailsSource().buildDetails(request)));
